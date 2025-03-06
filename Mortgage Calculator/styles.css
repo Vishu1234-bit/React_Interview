@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.calculate{
+  width: 100px;
+  align-items:center;
+}
