@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+.active-tab{
+  background-color: blueviolet;
+  height: 30px;
+  border-radius:5px;
+}
+.normal-tab{
+  background-color: white;
+  height: 30px;
+  border-radius:5px;
+}
+.tabs{
+  display:flex;
+  flex-direction: row;
+  gap:5px;
+}
