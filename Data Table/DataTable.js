@@ -47,7 +47,7 @@ export default function DataTable() {
       </table>
       <div className='pagination'>
       <select
-      onChange = {(e)=>{setUserPerPage(Number(e.target.value)),setCurrentPage(1)}}>
+      onChange = {(e)=>{setUserPerPage(Number(e.target.value));setCurrentPage(1)}}>
       {[5,10,20].map((size)=>(
         <option 
         key= {size}
