@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+button{
+  border-radius:15px;
+  display:flex;
+  padding :4px 4px 4px 4px;
+  gap:10px;
+  border-color: grey;
+  color: grey;
+  background-color: white;
+  font-weight: bold;
+}
+button:hover{
+  color:red;
+  border-color: red;
+}
+button.liked{
+  background-color:red;
+  color:white;
+}
