@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+.displayBoard{
+  display:flex;
+}
+.buttonSize{
+  width:45px;
+  height:45px;
+}
