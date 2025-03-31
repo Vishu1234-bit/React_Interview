@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+.image{
+  height:400px;
+  width:600px;
+}
+.nav-button{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background:rgba(0,0,0,0.5);
+  border:none;
+  color:white;
+  padding:10px;
+  border-radius:50%;
+  cursor:pointer;
+}
+.nav-button.left{
+  left:10px;
+}
+.nav-button.right{
+  right:10px;
+}
+.indicator-wrapper{
+  width:10px;
+  height:10px;
+  margin:0 5px;
+  border-radius:50%;
+  background:gray;
+  border:none;
+  cursor:pointer;
+}
+.indicator-container{
+  display:flex;
+  justify-content:center;
+  margin-top:10px;
+  gap:8px;
+}
+.indicator-wrapper.active{
+  background-color:black;
+}
