@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+.container{
+  background-color: white;
+  color:black;
+  width: 80%;
+}
+.job-board{
+  background-color:bisque
+}
+.header{
+  color: orangered;
+}
+.link{
+  color:black;
+}
