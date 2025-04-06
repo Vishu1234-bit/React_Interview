@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+.transfer-list{
+  display:flex;
+  gap:50px;
+}
+.buttons{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.left-list{
+  display:flex;
+  flex-direction: column;
+}
+.right-list{
+  display:flex;
+  flex-direction: column;
+}
