@@ -6,7 +6,7 @@ const styles = {
   item: { padding: 5, cursor: 'pointer' },
 };
 
-function App() {
+function SearchBar() {
   const [query, setQuery] = useState('');
   const [activeIndex, setActiveIndex] = useState(-1);
   const [suggestions, setSuggestions] = useState([]);
